@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" id="svg2" viewBox="0 0 389.91 535.71" version="1.1">
+  <title id="title4030">Christmas Tree</title>
+  <defs id="defs4">
+    <linearGradient id="linearGradient3778">
+      <stop id="stop3780" stop-color="#fad20e" offset="0"/>
+      <stop id="stop3786" stop-color="#fb1e09" offset="1"/>
+    </linearGradient>
+    <radialGradient id="radialGradient3806" xlink:href="#linearGradient3778" gradientUnits="userSpaceOnUse" cy="208.86" cx="102" gradientTransform="matrix(1 0 0 .95833 0 8.7023)" r="12.002"/>
+    <radialGradient id="radialGradient3881" gradientUnits="userSpaceOnUse" cy="208.86" cx="102" gradientTransform="matrix(1 0 0 .95833 0 8.7023)" r="12.002">
+      <stop id="stop3780-0" stop-color="#2ce330" offset="0"/>
+      <stop id="stop3786-5" stop-color="#0964fb" offset="1"/>
+    </radialGradient>
+    <radialGradient id="radialGradient3907" gradientUnits="userSpaceOnUse" cy="208.86" cx="102" gradientTransform="matrix(1 0 0 .95833 0 8.7023)" r="12.002">
+      <stop id="stop3901" stop-color="#f40dfa" offset="0"/>
+      <stop id="stop3903" stop-color="#10f4f7" offset="1"/>
+    </radialGradient>
+    <radialGradient id="radialGradient3929" gradientUnits="userSpaceOnUse" cy="208.86" cx="102" gradientTransform="matrix(1 0 0 .95833 0 8.7023)" r="12.002">
+      <stop id="stop3923" stop-color="#8a63de" offset="0"/>
+      <stop id="stop3925" stop-color="#ff007a" offset="1"/>
+    </radialGradient>
+    <linearGradient id="linearGradient3972" x1="341.5" xlink:href="#linearGradient3778" gradientUnits="userSpaceOnUse" y1="556.36" gradientTransform="matrix(-1,0,0,1,760,-13)" x2="424.5" y2="556.36"/>
+  </defs>
+  <g id="layer1" transform="translate(-182.09 -50.651)">
+    <path id="path2985" d="m378.38 109.38v1.7812c-19.13 25.71-158.3 127.04-33.38 89.22 18.653 1.0568-223.3 149.16 0 84-22.111 25.218-270.41 150.1 0 82 3.0436 0.57416-379.22 185.33 17 91l-7.5 86h23.5l0.6875-298.38-7.3125 298.38 32.5-1-8.5-85c393.14 89.927 0.0303-96.208 17-91 269.09 63.74 3.7655-67.51 0-82 226.35 69.564 0-56 0-84 122.17 38.48-21.63-61.57-33.38-89.19v-1.8125c-0.0738 0.33365-0.18561 0.66854-0.3125 1.0312-0.1282-0.36558-0.23816-0.69516-0.3125-1.0312z" fill="#008000"/>
+    <path id="path3774" d="m362 465.36-7 77h50l-9-78z" fill="#520"/>
+    <path id="path4008" fill="#217844" d="m356 268.36c-20.702 20.429-84.712 29.628-96 25-26.719-4.1868 53.767-12.271 96-25z"/>
+    <path id="path4010" fill="#217844" d="m335 353.36c-20.702 20.429-84.712 29.628-96 25-26.719-4.1868 53.767-12.271 96-25z"/>
+    <path id="path4012" fill="#217844" d="m322 449.36c-20.702 20.429-84.712 29.628-96 25-26.719-4.1868 53.767-12.271 96-25z"/>
+    <path id="path4014" fill="#217844" d="m437.68 449.36c20.702 20.429 84.712 29.628 96 25 26.719-4.1868-53.767-12.271-96-25z"/>
+    <path id="path4016" fill="#217844" d="m403.68 347.36c20.702 20.429 84.712 29.628 96 25 26.719-4.1868-53.767-12.271-96-25z"/>
+    <path id="path4018" fill="#217844" d="m393.68 268.36c20.702 20.429 84.712 29.628 96 25 26.719-4.1868-53.767-12.271-96-25z"/>
+    <path id="path4020" fill="#217844" d="m392.68 180.36c12.325 17.307 50.432 25.1 57.152 21.179 15.907-3.547-32.009-10.396-57.152-21.179z"/>
+    <path id="path4006" fill="#217844" d="m366 180.36c-12.325 17.307-50.432 25.1-57.152 21.179-15.907-3.547 32.009-10.396 57.152-21.179z"/>
+    <path id="path3804" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607" fill="url(#radialGradient3806)" transform="translate(175,91)"/>
+    <path id="path3808" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607" fill="url(#radialGradient3806)" transform="translate(251,20)"/>
+    <path id="path3812" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607" fill="url(#radialGradient3806)" transform="translate(334,151)"/>
+    <path id="path3816" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607" fill="url(#radialGradient3806)" transform="translate(382,265)"/>
+    <path id="path3820" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607" fill="url(#radialGradient3806)" transform="translate(199,204)"/>
+    <path id="path3824" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607" fill="url(#radialGradient3806)" transform="translate(269,116)"/>
+    <path id="path3879" transform="translate(330 72.5)" fill="url(#radialGradient3881)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3883" transform="translate(305 -43.5)" fill="url(#radialGradient3881)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3887" transform="translate(127 174.5)" fill="url(#radialGradient3881)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3891" transform="translate(227 249.5)" fill="url(#radialGradient3881)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3895" transform="translate(203 -5.5)" fill="url(#radialGradient3881)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3905" transform="translate(242 -57.5)" fill="url(#radialGradient3907)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3909" transform="translate(397 77.5)" fill="url(#radialGradient3907)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3913" transform="translate(344 209.5)" fill="url(#radialGradient3907)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3917" transform="translate(106 265.5)" fill="url(#radialGradient3907)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3927" transform="translate(205 121.5)" fill="url(#radialGradient3929)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3931" transform="translate(321 19.5)" fill="url(#radialGradient3929)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3935" transform="translate(285 194.5)" fill="url(#radialGradient3929)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3939" transform="translate(458 256.5)" fill="url(#radialGradient3929)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3943" transform="translate(419 164.5)" fill="url(#radialGradient3929)" d="m96.205 198.79c5.8033-3.0673 13.102-1.0453 16.303 4.5162 3.2006 5.5615 1.0907 12.557-4.7126 15.624-5.8033 3.0673-13.102 1.0453-16.303-4.5162-3.1938-5.5497-1.1003-12.53 4.681-15.607"/>
+    <path id="path3964" d="m418 502.36-82-2 10 86h61z" fill="url(#linearGradient3972)"/>
+    <g id="g4026" transform="matrix(.28542 .13979 -.14685 .29985 286.03 11.702)">
+      <path id="path4022" transform="translate(300,-49)" fill="#f60" d="m122.28 159.24 111.62 60.19-126.45-9.53-22.755 124.76-30.013-123.21-125.68 16.91 107.9-66.62-54.921-114.3 96.704 82.04 91.735-87.56z"/>
+      <path id="path4024" d="m122.28 159.24 111.62 60.19-126.45-9.53-22.755 124.76-30.013-123.21-125.68 16.91 107.9-66.62-54.921-114.3 96.704 82.04 91.735-87.56z" fill="#fc0" transform="matrix(.66432 -.058227 .058921 .65650 316.62 17.135)"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

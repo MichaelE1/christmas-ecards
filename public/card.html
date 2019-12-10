@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Christmas Card Generator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <img class="card__img" />
+      <div class="card__text">
+        <div class="card__text__bg">
+          <p class="card__text__to"></p>
+          <p class="card__text__msg"></p>
+          <p class="card__text__from"></p>
+        </div>
+      </div>
+    </div>
+
+    <button id="back">Make changes</button>
+    <button>Share card</button>
+    <!-- Perhaps only display this if shared is clicked.. -->
+    <input type="text" disabled value="hello" />
+    <button>Copy</button>
+
+    <script src="js/show.js"></script>
+  </body>
+</html>

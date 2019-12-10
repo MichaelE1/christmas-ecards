@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Christmas Card Generator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas|Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header></header>
+    <h1>🎄 Free Custom Christmas E-Cards 🎄</h1>
+    <h4 class="blurb">
+      If you are looking for a way to create and share Christmas e-cards with a
+      custom personal message, then you have come to the right place!
+    </h4>
+
+    <form class="create">
+      <h2>Step 1 - Choose an image</h2>
+      <div class="grid">
+        <div>
+          <input type="radio" id="image1" name="image" value="image1" checked />
+          <label for="image1"><img src="img/image1.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="image2" name="image" value="image2" />
+          <label for="image2"><img src="img/image2.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="image3" name="image" value="image3" />
+          <label for="image3"><img src="img/image3.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="image4" name="image" value="image4" />
+          <label for="image4"><img src="img/image4.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="image5" name="image" value="image5" />
+          <label for="image5"><img src="img/image5.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="image6" name="image" value="image6" />
+          <label for="image6"><img src="img/image6.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="image7" name="image" value="image7" />
+          <label for="image7"><img src="img/image7.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="image8" name="image" value="image8" />
+          <label for="image8"><img src="img/image8.svg"/></label>
+        </div>
+      </div>
+
+      <h2>Step 2 - Choose a background</h2>
+      <div class="grid">
+        <div>
+          <input type="radio" id="bg1" name="bg" value="bg1" checked />
+          <label for="bg1"><img src="img/bg1.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="bg2" name="bg" value="bg2" />
+          <label for="bg2"><img src="img/bg2.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="bg3" name="bg" value="bg3" />
+          <label for="bg3"><img src="img/bg3.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="bg4" name="bg" value="bg4" />
+          <label for="bg4"><img src="img/bg4.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="bg5" name="bg" value="bg5" />
+          <label for="bg5"><img src="img/bg5.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="bg6" name="bg" value="bg6" />
+          <label for="bg6"><img src="img/bg6.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="bg7" name="bg" value="bg7" />
+          <label for="bg7"><img src="img/bg7.svg"/></label>
+        </div>
+        <div>
+          <input type="radio" id="bg8" name="bg" value="bg8" />
+          <label for="bg8"><img src="img/bg8.svg"/></label>
+        </div>
+      </div>
+
+      <h2>Step 3 - Write your message</h2>
+      <label for="to">To</label>
+      <input id="to" type="text" name="to" />
+      <label for="message">Message</label>
+      <textarea id="message" name="message"></textarea>
+      <label for="from">From</label>
+      <input id="from" type="text" name="from" />
+
+      <h2>Step 4 - Choose the font</h2>
+      <div class="grid grid--longer">
+        <div>
+          <input type="radio" id="Arial" name="font" value="Arial" checked />
+          <label for="Arial">Arial</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="ComicSansMS"
+            name="font"
+            value="Comic Sans MS"
+          />
+          <label for="ComicSansMS">Comic Sans MS</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="TimesNewRoman"
+            name="font"
+            value="Times New Roman"
+          />
+          <label for="TimesNewRoman">Times New Roman</label>
+        </div>
+        <div>
+          <input type="radio" id="Courier" name="font" value="Courier" />
+          <label for="Courier">Courier</label>
+        </div>
+        <div>
+          <input type="radio" id="Georgia" name="font" value="Georgia" />
+          <label for="Georgia">Georgia</label>
+        </div>
+        <div>
+          <input type="radio" id="Impact" name="font" value="Impact" />
+          <label for="Impact">Impact</label>
+        </div>
+        <div>
+          <input type="radio" id="Tahoma" name="font" value="Tahoma" />
+          <label for="Tahoma">Tahoma</label>
+        </div>
+        <div>
+          <input type="radio" id="Verdana" name="font" value="Verdana" />
+          <label for="Verdana">Verdana</label>
+        </div>
+      </div>
+
+      <h2>Step 5 - Choose the font size</h2>
+      <div class="grid grid--longer">
+        <div>
+          <input type="radio" id="size12" name="fontSize" value="12" checked />
+          <label for="size12">12px</label>
+        </div>
+        <div>
+          <input type="radio" id="size14" name="fontSize" value="14" />
+          <label for="size14">14px</label>
+        </div>
+        <div>
+          <input type="radio" id="size16" name="fontSize" value="16" />
+          <label for="size16">16px</label>
+        </div>
+        <div>
+          <input type="radio" id="size18" name="fontSize" value="18" />
+          <label for="size18">18px</label>
+        </div>
+        <div>
+          <input type="radio" id="size20" name="fontSize" value="20" />
+          <label for="size20">20px</label>
+        </div>
+        <div>
+          <input type="radio" id="size26" name="fontSize" value="26" />
+          <label for="size26">26px</label>
+        </div>
+        <div>
+          <input type="radio" id="size34" name="fontSize" value="34" />
+          <label for="size34">34px</label>
+        </div>
+        <div>
+          <input type="radio" id="size40" name="fontSize" value="40" />
+          <label for="size40">40px</label>
+        </div>
+      </div>
+
+      <h2>Step 6 - Choose the text color</h2>
+      <div class="grid grid--shorter">
+        <div>
+          <input
+            type="radio"
+            id="black"
+            name="fontColor"
+            value="black"
+            checked
+          />
+          <label for="black">Black</label>
+        </div>
+        <div>
+          <input type="radio" id="red" name="fontColor" value="red" />
+          <label for="red">Red</label>
+        </div>
+        <div>
+          <input type="radio" id="blue" name="fontColor" value="blue" />
+          <label for="blue">Blue</label>
+        </div>
+        <div>
+          <input type="radio" id="green" name="fontColor" value="green" />
+          <label for="green">Green</label>
+        </div>
+        <div>
+          <input type="radio" id="pink" name="fontColor" value="pink" />
+          <label for="pink">Pink</label>
+        </div>
+        <div>
+          <input type="radio" id="purple" name="fontColor" value="purple" />
+          <label for="purple">Purple</label>
+        </div>
+        <div>
+          <input type="radio" id="grey" name="fontColor" value="grey" />
+          <label for="grey">Grey</label>
+        </div>
+        <div>
+          <input type="radio" id="orange" name="fontColor" value="orange" />
+          <label for="orange">Orange</label>
+        </div>
+      </div>
+
+      <h2>Step 7 - Choose the card layout</h2>
+      <input
+        type="radio"
+        id="img-left"
+        name="position"
+        value="img-left"
+        checked
+      />
+      <label for="img-left"><img src="img/img-left.png"/></label>
+      <input type="radio" id="img-top" name="position" value="img-top" />
+      <label for="img-top"><img src="img/img-top.png"/></label>
+      <input type="radio" id="img-right" name="position" value="img-right" />
+      <label for="img-right"><img src="img/img-right.png"/></label>
+
+      <input type="submit" value="Create Card" />
+    </form>
+    <script src="js/formSerialize.js"></script>
+    <script src="js/create.js"></script>
+  </body>
+</html>
