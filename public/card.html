@@ -23,12 +23,17 @@
       </div>
     </div>
 
-    <button id="back">Make changes</button>
-    <button>Share card</button>
-    <!-- Perhaps only display this if shared is clicked.. -->
-    <input type="text" disabled value="hello" />
-    <button>Copy</button>
-
+    <div class="button__group">
+      <button id="back" class="button button--card button--edit">
+        ✂️ Edit
+      </button>
+      <button class="button button--card button--share">🌟Share</button>
+      <!-- Perhaps only display this if shared is clicked.. -->
+    </div>
+    <div class="share__group">
+      <input type="text" id="url" disabled value="hello" />
+      <button class="button button--copy">📋 Copy</button>
+    </div>
     <script src="js/show.js"></script>
   </body>
 </html>

@@ -17,7 +17,7 @@ if (card) {
     document.querySelector("#from").value = card.from;
   }
 
-  document.querySelector(`#${card.font}`).checked = true;
+  document.querySelector(`#${card.font.replace(/ /g, "")}`).checked = true; // remove spaces to match IDs
   document.querySelector(`#size${card.fontSize}`).checked = true;
   document.querySelector(`#${card.fontColor}`).checked = true;
   document.querySelector(`#${card.position}`).checked = true;

@@ -93,11 +93,11 @@
       </div>
 
       <h2>Step 3 - Write your message</h2>
-      <label for="to">To</label>
+      <label for="to" id="to__label">To:</label>
       <input id="to" type="text" name="to" />
-      <label for="message">Message</label>
+      <label for="message" id="message__label">Message:</label>
       <textarea id="message" name="message"></textarea>
-      <label for="from">From</label>
+      <label for="from" id="from__label">From:</label>
       <input id="from" type="text" name="from" />
 
       <h2>Step 4 - Choose the font</h2>
@@ -225,20 +225,33 @@
       </div>
 
       <h2>Step 7 - Choose the card layout</h2>
-      <input
-        type="radio"
-        id="img-left"
-        name="position"
-        value="img-left"
-        checked
-      />
-      <label for="img-left"><img src="img/img-left.png"/></label>
-      <input type="radio" id="img-top" name="position" value="img-top" />
-      <label for="img-top"><img src="img/img-top.png"/></label>
-      <input type="radio" id="img-right" name="position" value="img-right" />
-      <label for="img-right"><img src="img/img-right.png"/></label>
+      <div class="grid">
+        <div>
+          <input
+            type="radio"
+            id="img-left"
+            name="position"
+            value="img-left"
+            checked
+          />
+          <label for="img-left"><img src="img/img-left.png"/></label>
+        </div>
+        <div>
+          <input type="radio" id="img-top" name="position" value="img-top" />
+          <label for="img-top"><img src="img/img-top.png"/></label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="img-right"
+            name="position"
+            value="img-right"
+          />
+          <label for="img-right"><img src="img/img-right.png"/></label>
+        </div>
+      </div>
 
-      <input type="submit" value="Create Card" />
+      <input type="submit" class="button" value="🎁 Create Card!" />
     </form>
     <script src="js/formSerialize.js"></script>
     <script src="js/create.js"></script>
