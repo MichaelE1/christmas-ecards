@@ -17,7 +17,7 @@ if (card) {
     document.querySelector("#from").value = card.from;
   }
 
-  document.querySelector(`#${card.font.replace(/ /g, "")}`).checked = true; // remove spaces to match IDs
+  document.querySelector(`#${card.font.replace(/ /g, "")}`).checked = true; // remove spaces to match input IDs
   document.querySelector(`#size${card.fontSize}`).checked = true;
   document.querySelector(`#${card.fontColor}`).checked = true;
   document.querySelector(`#${card.position}`).checked = true;
@@ -25,11 +25,9 @@ if (card) {
 
 // Handle form submission
 const form = document.querySelector(".create");
-form.addEventListener("submit", handleSubmit);
-
-function handleSubmit(e) {
+form.addEventListener("submit", e => {
   e.preventDefault();
   const card = serialize(form, { hash: true });
   sessionStorage.setItem("card", JSON.stringify(card));
   window.location.href = "/card.html";
-}
+});

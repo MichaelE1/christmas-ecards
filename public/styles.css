@@ -1,4 +1,7 @@
-/* TODO: Store green and red hex in css variables */
+:root {
+  --christmas-green: #2e7d32;
+  --christmas-red: #c62828;
+}
 
 body {
   font-family: "Mountains of Christmas", cursive;
@@ -15,17 +18,24 @@ header {
   left: 0;
 }
 
+#octocat {
+  width: 50px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
 .blurb,
 label {
   font-family: "Raleway", sans-serif;
 }
 
 h1 {
-  color: #c62828;
+  color: var(--christmas-red);
 }
 
 h2 {
-  color: #2e7d32;
+  color: var(--christmas-green);
 }
 
 .grid {
@@ -70,12 +80,12 @@ h2 {
   margin-top: 15px;
   cursor: pointer;
   padding: 8px;
-  color: #2e7d32;
+  color: var(--christmas-green);
   font-family: "Raleway", sans-serif;
 }
 
 .button:hover {
-  background-color: #c62828;
+  background-color: var(--christmas-red);
   color: white;
 }
 
@@ -251,7 +261,7 @@ label[for="orange"] {
 }
 
 .button--edit:hover {
-  background-color: #2e7d32;
+  background-color: var(--christmas-green);
 }
 
 .button--share {

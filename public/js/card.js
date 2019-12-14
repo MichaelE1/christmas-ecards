@@ -77,9 +77,9 @@ function addEventListeners(card) {
     .querySelector("#edit")
     .addEventListener("click", () => (window.location.href = "/"));
 
+  // Share button
   const shareButton = document.querySelector("#share");
 
-  // Share button
   shareButton.addEventListener("click", async () => {
     const response = await fetch("/save", {
       method: "POST",

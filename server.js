@@ -23,7 +23,7 @@ app.post("/access", (req, res) => {
     "SELECT id, content FROM Cards WHERE id = ?",
     [req.body.ID.toString()],
     (err, row) => {
-      console.log(err);
+      if (err) console.log(err);
       res.json({ row });
     }
   );
@@ -34,7 +34,7 @@ app.post("/save", (req, res) => {
     "INSERT INTO Cards (content) VALUES (?)",
     [JSON.stringify(req.body)],
     function(err) {
-      console.log(err);
+      if (err) console.log(err);
       res.json({ id: this.lastID });
     }
   );
