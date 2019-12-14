@@ -246,7 +246,7 @@ label[for="orange"] {
 
 .button--card {
   flex-basis: 100%;
-  max-width: 100px;
+  max-width: 120px;
   margin-left: 10px;
 }
 
@@ -263,7 +263,7 @@ label[for="orange"] {
 }
 
 .share__group {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
   display: none;
 }
@@ -280,11 +280,8 @@ label[for="orange"] {
   }
 }
 
-.button--copy {
-  color: black;
-  margin-left: 10px;
-}
-
-.button--copy:hover {
-  background-color: #6a1b9a;
+#copy {
+  font-family: "Raleway", sans-serif;
+  margin-left: 5px;
+  color: #8e24aa;
 }

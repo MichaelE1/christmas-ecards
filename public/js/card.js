@@ -4,7 +4,8 @@
   const ID = urlParams.get("id");
 
   const card = await getCard(ID);
-  updatePageStyles(card);
+  updatePageStyles(card, ID);
+  addEventListeners(card);
 })();
 
 async function getCard(ID) {
@@ -32,10 +33,14 @@ async function getCard(ID) {
   }
 }
 
-function updatePageStyles(card) {
+function updatePageStyles(card, ID) {
   const cardElement = document.querySelector(".card");
 
-  // TODO: Hide share button if ID is present. If it is present, change edit to make your own
+  if (ID) {
+    // Update buttons if card ID is present
+    document.querySelector("#share").style.display = "none";
+    document.querySelector("#edit").textContent = "✂️ Design";
+  }
 
   // Set saved card styles
   document.querySelector(".card__img").src = `/img/${card.image}.svg`;
@@ -64,14 +69,18 @@ function updatePageStyles(card) {
   }
 
   document.querySelector(".card__text__msg").textContent = card.message;
+}
 
-  // Back button
+function addEventListeners(card) {
+  // Edit button
   document
-    .querySelector("#back")
+    .querySelector("#edit")
     .addEventListener("click", () => (window.location.href = "/"));
 
-  // Share button -- TODO: put into own function
-  document.querySelector("#share").addEventListener("click", async () => {
+  const shareButton = document.querySelector("#share");
+
+  // Share button
+  shareButton.addEventListener("click", async () => {
     const response = await fetch("/save", {
       method: "POST",
       headers: {
@@ -80,15 +89,20 @@ function updatePageStyles(card) {
       body: JSON.stringify(card)
     });
     const responseJSON = await response.json();
-    // TODO:
-    // 4. Display unique ID in input box, as a query string, and set up auto copy
+
     const shareElement = document.querySelector(".share__group");
     const URLElement = document.querySelector("#url");
-    shareElement.style.display = "unset";
+    shareElement.style.display = "block";
     URLElement.value = `${window.location.href}?id=${responseJSON.id}`;
+    shareButton.style.display = "none";
+
     // Copy to clipboard
     URLElement.select();
-    URLElement.setSelectionRange(0, 99999); // for mobile browsers?
     document.execCommand("copy");
+    URLElement.setSelectionRange(0, 99999); // for mobile browsers?
+
+    setTimeout(() => {
+      document.querySelector("#copy").style.display = "none";
+    }, 2000);
   });
 }
