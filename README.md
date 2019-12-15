@@ -4,7 +4,7 @@
 
 ## [Live Demo](https://christmas-ecards.glitch.me/)
 
-![alt text](screenshot.png)
+![project screenshot](screenshot.png)
 
 ## Run locally
 
